@@ -9,3 +9,22 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
+
+let virus = new Object
+
+virus = {
+  name: 'covid-19',
+  symptom: ['fiebre', 'tos', 'cansancio'],
+  vaccine: ['moderna', 'pfizer', 'astrazeneca']
+}
+
+let showProperties = (obj) => {
+  let arr = []
+  Object.entries(obj).forEach(([key]) => {
+    arr.push(key)
+  })
+  return arr
+
+}
+console.log(showProperties(virus));
+
