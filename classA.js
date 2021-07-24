@@ -1,8 +1,7 @@
 class classA {
-    constructor(bar, foo, nee, moo) {
+    constructor(bar, foo, lorem) {
       this.bar = bar;
       this.foo = foo;
-      this.nee = nee;
-      this.moo = moo;
+      this.lorem = lorem;
     }
   }
