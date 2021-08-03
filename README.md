@@ -4,6 +4,8 @@ URL Repositorio Github https://github.com/pepiyu/actividad-01
 
 ### Ejercicio 0: Creación del proyecto actividad-01 en Github
 
+[Github project](https://github.com/pepiyu/actividad-01/projects)
+
 En el siguiente pantallazo se muestra la creación del proyecto actividad-01 en Github.
 
 ![Creación del proyecto actividad-01](img/Imagen2.png)
