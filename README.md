@@ -2,31 +2,31 @@ Yessica Bao Ye
 03/08/2021
 URL Repositorio Github https://github.com/pepiyu/actividad-01
 
-### Ejercicio 0: Creación del proyecto actividad-01 en Github
+### Ejercicio 0. Creación del proyecto actividad-01 en Github
 
-[Github project](https://github.com/pepiyu/actividad-01/projects)
+En el enlace [Github project](https://github.com/pepiyu/actividad-01/projects) se accede al proyecto Github.
 
-En el siguiente pantallazo se muestra la creación del proyecto actividad-01 en Github.
 
 ![Creación del proyecto actividad-01](img/Imagen2.png)
 
-### Ejercicio 1: Crear las tareas en el kanban de Github que consideres necesarias para este proyecto. Las tareas se pueden crear a partir de las actividades que hay a continuación. 
+### Ejercicio 1. Crear las tareas en el kanban de Github que consideres necesarias para este proyecto. Las tareas se pueden crear a partir de las actividades que hay a continuación. 
 
-En el siguiente pantallazo se muestran todas las tareas creadas en el Kanban del proyecto.
+En el enlace [issues](https://github.com/pepiyu/actividad-01/issues) se accede a las tareas creadas en este proyecto.
 
-![Creación del proyecto actividad-01](img/Imagen10.png)
+
+![Creación de las tareas](img/Imagen10.png)
 
 ### Ejercicio 2. Creación de la rama develop a partir de main 
 
-Para crear la rama develop: 
+Se crea la rama develop: 
 
 ```git branch develop```
 
 ### Ejercicio 3. Creación de la rama feature-1 y añadir la clase A con los atributos: foo bar 
 
-Para crear la rama feature-1: 
+Se crea la rama feature-1 y se va a ella: 
 
-```git branch feature-1```
+```git checkout -b feature-1```
 
 Se añade la clase A con los atributos y posteriormente se añade el cambio: 
 
@@ -36,27 +36,29 @@ Posteriormente, se comitea con el mesage "#2 adding class A" haciendo referencia
 
 ```git commit -m "#2 adding class A"```
 
+
+![Commit](img/Imagen4.png)
 ### Ejercicio 4. Mergear feature-1 con develop 
 
-Nos vemos a la rama develop:
+Se va a la rama develop:
 
 ```git checkout develop```
 
-Mergeamos la rama feature-1:
+Se mergea la rama feature-1:
 
 ```git merge feature-1```
 
 ### Ejercicio 5. Mergear develop con main y generar la etiqueta v1.0 
 
-Nos vemos a la rama main:
+Se va a la rama main:
 
 ```git checkout main```
 
-Mergeamos la rama develop:
+Se mergea la rama develop:
 
 ```git merge develop```
 
-Mergeamos la rama develop:
+Se crea la etiqueta v1.0 con el mensaje "version 1.0":
 
 ```git tag -a v1.0 -m "version 1.0"```
 
@@ -66,52 +68,92 @@ Mergeamos la rama develop:
 
 ### Ejercicio 6. Mergear feature-2 con develop 
 
+Se crea una rama nueva llamada feature-2 y se accede a ella:
+
 ```git checkout -b feature-2```
+
+Tras realizar cambios, se añade todos los cambios:
 
 ```git add .```
 
+Se comitea los cambios con el mensaje "new object":
+
 ```git commit -m "new object"```
 
+Se va a la rama develop:
+
 ```git checkout develop```
+
+Se mergea la rama feature-2 con la rama develop:
 
 ```git merge feature-2```
 
 ### Ejercicio 7. Mergear feature-3 con develop 
 
+Se crea una nueva rama llamada feature-3 y se accede a ella:
+
 ```git checkout -b feature-3```
+
+Se añade los cambios:
 
 ```git add .```
 
+Se comitea los cambios con el mensaje "new atribute":
+
 ```git commit -m "new atribute"```
 
+Se va a la rama develop:
+
 ```git checkout develop```
+
+Se mergea la rama feature-3 con la rama develop:
 
 ```git merge feature-3```
 
 ### Ejercicio 8. Mergear develop con main y creación de la etiqueta v2.0 
 
+Se va a la rama main:
+
 ```git checkout main```
 
+Se mergea la rama develop con la rama main:
+
 ```git merge develop```
+
+Se crea la etiqueta v2.0 con el mensaje "version 2.0":
 
 ```git tag -a v2.0 -m "version 2.0"```
 
 ### Ejercicio 9. Creación de rama hotfix-1 a partir de main y añadir un atributo lorem en clase A 
 
+Se crea la rama hotfix-1 y se va a ella:
+
 ```git checkout -b hotfix-1```
+
+Tras realizar cambios, se añaden todos los cambios:
 
 ```git add .```
 
+Se comitea los cambios con el mensaje "#5 new atribute lorem" haciendo referencia a la issue #5:
+
 ```git commit -m "#5 new atribute lorem"```
 
-![Creación de la etiqueta v1.0](img/Imagen6.png)
+![issue 5](img/Imagen6.png)
  
 ### Ejercicio 10. Mergear rama hotfix-1 con main y creación de etiqueta v2.1
 
+Se va a la rama main:
+
 ```git checkout main```
+
+Se mergea la rama hotfix-1 con la rama main
 
 ```git merge hotfix-1```
 
+Se crea la etiqueta v2.1 con el mensaje "version 2.1":
+
 ```git tag -a v2.1 -m "version 2.1"```
+
+En el enlace [Github project](https://github.com/pepiyu/actividad-01/projects) se accede al proyecto Github.
 
 
