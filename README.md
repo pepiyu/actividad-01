@@ -1,6 +1,6 @@
-Yessica Bao Ye
-03/08/2021
-URL Repositorio Github https://github.com/pepiyu/actividad-01
+URL Repositorio Github
+
+https://github.com/pepiyu/actividad-01
 
 ### Ejercicio 0. Creación del proyecto actividad-01 en Github
 
@@ -172,4 +172,5 @@ Se crea la etiqueta v2.1 con el mensaje "version 2.1":
 
 En el enlace [v2.1](https://github.com/pepiyu/actividad-01/releases/tag/2.1) se accede la versión 2.1.
 
+En el enlace [Network](https://github.com/pepiyu/actividad-01/network) A la linea de tiempo de las ramas.
 
